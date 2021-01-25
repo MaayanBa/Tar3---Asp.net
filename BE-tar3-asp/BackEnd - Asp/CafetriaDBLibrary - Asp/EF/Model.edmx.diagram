@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7f14810ab7c14d6a989b4483f4d4c116" Name="Diagram1">
+        <EntityTypeShape EntityType="bgroup13_test1Model.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="bgroup13_test1Model.Purchase" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="bgroup13_test1Model.Student" Width="1.5" PointX="8.625" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="bgroup13_test1Model.Supplier" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <AssociationConnector Association="bgroup13_test1Model.FK__Product__Supplie__4959E263" ManuallyRouted="false" />
+        <AssociationConnector Association="bgroup13_test1Model.FK__Purchase__Serial__4A4E069C" ManuallyRouted="false" />
+        <AssociationConnector Association="bgroup13_test1Model.FK__Purchase__Studen__4B422AD5" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
